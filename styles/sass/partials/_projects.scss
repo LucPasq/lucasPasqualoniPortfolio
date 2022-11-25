@@ -1,0 +1,6 @@
+@use "./variables";
+
+.projects{
+    display: flex;
+    background-color: variables.$offWhite;
+}

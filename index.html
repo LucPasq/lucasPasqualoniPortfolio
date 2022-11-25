@@ -6,74 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Pasqualoni</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/899a1041ac.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="nav" class="nav">
+        <ul class="wrapper navBar">
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>
     </nav>
-    <header>
-        <h1>Lucas Pasqualoni</h1>
-        <h2>GTA based web developer</h2>
-        <button>get in touch</button>
+    <header id="header" class="header">
+        <div class="wrapper">
+            <h1>Lucas Pasqualoni</h1>
+            <h2>GTA based web developer</h2>
+            <button>get in touch</button>
+        </div>
     </header>
     <main>
-        <section>
-            <h3>about me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam maxime dolor nostrum quos molestias excepturi, nesciunt magnam sint quisquam adipisci corporis ad placeat mollitia.</p>
-        </section>
-        <section>
-            <h4>skills</h4>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <h5>projects</h5>
-            <div>
-                <h5>project title here</h5>
-                <h6>languages used here</h6>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
-                <button>view live</button>
-                <button>view code</button>
-            </div>
-            <div>
-                <h5>project title here</h5>
-                <h6>languages used here</h6>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
-                <button>view live</button>
-                <button>view code</button>
-            </div>
-            <div>
-                <h5>project title here</h5>
-                <h6>languages used here</h6>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
-                <button>view live</button>
-                <button>view code</button>
+        <section id="about" class="about">
+            <div class="wrapper">
+                <h3>about me</h3>
+                <p>Graphic design is my passion</p>
             </div>
         </section>
-        <section>
-            <h7>get in touch</h7>
-            <div>
+        <section id="skills" class="skills">
+            <div class="wrapper">
+                <h4>skills</h4>
+                <div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-sass"></i>
+                        <p>SASS</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-square-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                        <p>React</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-github"></i>
+                        <p>GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="wrapper">
+                <h5>projects</h5>
+                <div>
+                    <img src="projectImg.jpg" alt="placeholder image for project">
+                    <div>
+                        <h5>project title here</h5>
+                        <h6>languages used here</h6>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
+                        <button>view live</button>
+                        <button>view code</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="projectImg.jpg" alt="placeholder image for project">
+                    <div>
+                        <h5>project title here</h5>
+                        <h6>languages used here</h6>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
+                        <button>view live</button>
+                        <button>view code</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="projectImg.jpg" alt="placeholder image for project">
+                    <div>
+                        <h5>project title here</h5>
+                        <h6>languages used here</h6>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ex?</p>
+                        <button>view live</button>
+                        <button>view code</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="wrapper">
+                <h7>get in touch</h7>
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo tenetur, eaque optio aliquid sunt provident neque? Praesentium saepe quae doloremque!</p>
+                <div>
 
+                </div>
+                <button>submit</button>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo tenetur, eaque optio aliquid sunt provident neque? Praesentium saepe quae doloremque!</p>
-            <div>
-
-            </div>
-            <button>submit</button>
         </section>
     </main>
-    <footer>
-        <h8>Built in 2022 by Lucas Pasqualoni</h8>
+    <footer id="footer" class="footer">
+        <div class="wrapper">
+            <h8>Built in 2022 by Lucas Pasqualoni</h8>
+        </div>
     </footer>
 </body>
 </html>

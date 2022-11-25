@@ -1,0 +1,6 @@
+@use "./variables";
+
+.skills{
+    display: flex;
+    background-color: variables.$skyBlue;
+}

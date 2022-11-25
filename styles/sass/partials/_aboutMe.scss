@@ -1,0 +1,6 @@
+@use "./variables";
+
+.about{
+    display: flex;
+    background-color: variables.$offWhite;
+}

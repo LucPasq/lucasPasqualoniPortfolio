@@ -1,0 +1,5 @@
+@use "./variables";
+.contact{
+    display: flex;
+    background-color: variables.$blue;
+}

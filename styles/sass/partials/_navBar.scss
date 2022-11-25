@@ -1,0 +1,17 @@
+@use "./variables";
+
+.nav{
+    display: flex;
+    background-color: variables.$deepBlue;
+    text-align: center;
+    
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    color: variables.$offWhite;
+}

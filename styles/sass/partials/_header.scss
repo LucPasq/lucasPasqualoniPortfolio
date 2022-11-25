@@ -1,0 +1,6 @@
+@use "./variables";
+
+.header{
+    display: flex;
+    background-color: variables.$deepBlue;
+}
