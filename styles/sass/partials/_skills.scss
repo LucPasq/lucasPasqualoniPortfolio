@@ -4,3 +4,36 @@
     display: flex;
     background-color: variables.$skyBlue;
 }
+
+.skillsAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+.skillsAlign h4{
+    font-family: variables.$headerFont;
+    font-size: 60px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+
+}
+
+
+.skillsFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 58px;
+}
+
+.skillsFlex div p{
+    text-align: center;
+    font-family: variables.$bodyFont;
+    font-size: 18px;
+}
