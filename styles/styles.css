@@ -233,17 +233,25 @@ html {
 }
 
 @font-face {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   src: url("../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf");
+  font-weight: 700;
 }
 @font-face {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro";
   src: url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf");
+  font-weight: 600;
 }
 @font-face {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro";
   src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  font-weight: 400;
 }
+a {
+  text-decoration: none;
+  color: #F2F4F5;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -266,6 +274,10 @@ html {
   text-decoration: none;
   list-style: none;
   color: #F2F4F5;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Source Sans Pro";
+  font-size: 24px;
 }
 
 .header {
@@ -273,6 +285,47 @@ html {
   display: -ms-flexbox;
   display: flex;
   background-color: #424B6D;
+  height: 500px;
+}
+
+.headerAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 150px;
+}
+
+.headerAlign h1 {
+  font-family: "Playfair Display";
+  color: #F2F4F5;
+  font-size: 72px;
+  margin: 0 auto;
+}
+
+.headerAlign h2 {
+  font-family: "Source Sans Pro";
+  color: #F2F4F5;
+  font-size: 24px;
+}
+
+.headerAlign button {
+  font-family: "Source Sans Pro";
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 36px;
+  background-color: #EEAF98;
+  color: #2A3033;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .about {

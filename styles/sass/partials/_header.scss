@@ -3,4 +3,38 @@
 .header{
     display: flex;
     background-color: variables.$deepBlue;
+    height: 500px;
+}
+
+.headerAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.headerAlign h1{
+    font-family: variables.$headerFont;
+    color: variables.$offWhite;
+    font-size: 72px;
+    margin: 0 auto;
+}
+
+.headerAlign h2{
+    font-family: variables.$subHeaderFont;
+    color: variables.$offWhite;
+    font-size: 24px;
+}
+
+.headerAlign button{
+    font-family: variables.$bodyFont;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 36px;
+    background-color: variables.$beige;
+    color: variables.$black;
+    font-size: 16px;
+    font-weight: bold; 
 }

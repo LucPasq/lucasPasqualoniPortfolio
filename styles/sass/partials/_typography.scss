@@ -1,16 +1,25 @@
 @use "./variables";
 
 @font-face {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     src: url("../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf");
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     src: url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf");
+    font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+    font-weight: 400;
+}
+
+
+a {
+    text-decoration: none;
+    color: variables.$offWhite;
 }
