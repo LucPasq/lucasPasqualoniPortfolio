@@ -315,7 +315,7 @@ a {
   font-size: 24px;
 }
 
-.headerAlign button {
+.headerAlign a {
   font-family: "Source Sans Pro";
   border: none;
   text-decoration: none;
@@ -421,6 +421,85 @@ a {
   display: -ms-flexbox;
   display: flex;
   background-color: #F2F4F5;
+}
+
+.projectsAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1000px;
+}
+
+.projectsAlign h4 {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: #424B6D;
+}
+
+.alignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px 5px;
+}
+
+.alignmentReverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 5px 5px;
+}
+
+.projectsBox {
+  padding: 15px;
+}
+
+.projectsBox h5 {
+  font-family: "Source Sans Pro";
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.projectsBox h6 {
+  font-family: "Source Sans Pro";
+  margin: 0 auto;
+  font-size: 16px;
+  color: #424B6D;
+}
+
+.projectsBox p {
+  width: 80%;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.projectsBox a {
+  font-family: "Source Sans Pro";
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 36px;
+  background-color: #EEAF98;
+  color: #2A3033;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .contact {

@@ -4,3 +4,70 @@
     display: flex;
     background-color: variables.$offWhite;
 }
+
+.projectsAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+.projectsAlign h4{
+    font-family: variables.$headerFont;
+    font-size: 48px;
+    color: variables.$deepBlue;
+}
+
+.alignment{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+
+}
+
+.alignmentReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px;
+
+}
+
+.projectsBox{
+    padding: 15px;
+}
+
+.projectsBox h5{
+    font-family: variables.$projectTitle;
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+
+.projectsBox h6{
+    font-family: variables.$bodyFont;
+    margin: 0 auto;
+    font-size: 16px;
+    color: variables.$deepBlue;
+
+
+}
+
+.projectsBox p{
+    width: 80%;
+    font-family: variables.$bodyFont;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.projectsBox a{
+    font-family: variables.$bodyFont;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 36px;
+    background-color: variables.$beige;
+    color: variables.$black;
+    font-size: 16px;
+    font-weight: bold; 
+}
