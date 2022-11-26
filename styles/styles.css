@@ -431,15 +431,18 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 1000px;
+  height: 1200px;
 }
 
 .projectsAlign h4 {
   font-family: "Playfair Display";
-  font-size: 48px;
+  font-size: 55px;
   color: #424B6D;
 }
 
@@ -467,6 +470,7 @@ a {
 
 .projectsBox {
   padding: 15px;
+  max-width: 400px;
 }
 
 .projectsBox h5 {
@@ -483,10 +487,9 @@ a {
 }
 
 .projectsBox p {
-  width: 80%;
+  max-width: 90%;
   font-family: "Source Sans Pro";
   font-size: 16px;
-  line-height: 28px;
 }
 
 .projectsBox a {
@@ -507,6 +510,56 @@ a {
   display: -ms-flexbox;
   display: flex;
   background-color: #546CBE;
+}
+
+.contactAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+
+.contactAlign h6 {
+  font-family: "Playfair Display";
+  color: #F2F4F5;
+  font-size: 72px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contactAlign p {
+  font-family: "Source Sans Pro";
+  color: #F2F4F5;
+  font-size: 20px;
+}
+
+.contactBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 35%;
+}
+
+.contactBar a i {
+  color: #EEAF98;
 }
 
 .footer {
