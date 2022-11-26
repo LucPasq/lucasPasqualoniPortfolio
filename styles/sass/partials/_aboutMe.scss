@@ -3,4 +3,25 @@
 .about{
     display: flex;
     background-color: variables.$offWhite;
+    height: 400px;
+}
+
+.aboutAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.aboutAlign h3 {
+    font-family: variables.$headerFont;
+    color: variables.$blue;
+    font-size: 58px;
+    margin: 0 auto;
+}
+
+.aboutAlign p {
+    width: 70%;
+    font-family: variables.$bodyFont;
+    line-height: 24px;
+    text-align: center;
 }
