@@ -417,6 +417,10 @@ a {
   font-size: 18px;
 }
 
+.skillsFlex div a i {
+  color: #2A3033;
+}
+
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -588,4 +592,23 @@ a {
   font-family: "Source Sans Pro";
   color: #F2F4F5;
   font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 70%;
+  }
+  i {
+    max-width: 50%;
+  }
+  img {
+    max-width: 50%;
+  }
+  p {
+    line-height: 16px;
+  }
+  .aboutAlign p {
+    line-height: 18px;
+    font-size: 14px;
+  }
 }

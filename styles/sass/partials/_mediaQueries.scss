@@ -1,1 +1,27 @@
 @use "./variables";
+
+@media (max-width: 1000px){
+    body{
+        font-size: 70%;
+    }
+    i{
+        max-width: 50%;
+    }
+
+    img{
+        max-width: 50%;
+    }
+
+    p{
+        line-height: 16px;
+    }
+
+    .aboutAlign p{
+        line-height: 18px;
+        font-size: 14px;
+    }
+}
+
+//Initial media queries - able to be expanded out later - messing around resizing windows on desktop seems to suggest a good balance for now.
+
+
